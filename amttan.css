@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 300px;
+  gap: 30px;
+}
+
+.text {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+.display {
+  width: 400px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn1 {
+  width: 100px;
+  height: 40px;
+  background-color: pink;
+}
+
+.btn2 {
+  width: 100px;
+  height: 40px;
+  background-color: pink;
+}
+
+.btn3 {
+  width: 100px;
+  height: 40px;
+  background-color: pink;
+}
